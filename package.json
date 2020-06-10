@@ -1,0 +1,25 @@
+{
+  "name": "common-consumption-styles",
+  "version": "0.0.16",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsvick/sb-styles.git"
+  },
+  "keywords": [
+    "angular",
+    "components",
+    "sunbird",
+    "Styles"
+  ],
+  "bugs": {
+    "url": "https://github.com/itsvick/sb-styles/issues"
+  },
+  "homepage": "https://github.com/itsvick/sb-styles.git#readme"
+}
