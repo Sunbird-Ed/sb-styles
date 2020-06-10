@@ -1,0 +1,231 @@
+/* css3 variable & sass variables */
+:root {
+  //font-size: 16px;
+  --font-stack-en: 'Noto Sans','Noto Sans Devanagari','Noto Sans Tamil','Noto Sans Bengali','Noto Sans Malayalam','Noto Sans Gurmukhi','Noto Sans Gujarati','Noto Sans Telugu','Noto Sans Kannada','Noto Sans Oriya','Noto Nastaliq Urdu',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+  --font-stack-hi: 'Noto Sans Devanagari','Noto Sans','Noto Sans Tamil','Noto Sans Bengali','Noto Sans Malayalam','Noto Sans Gurmukhi','Noto Sans Gujarati','Noto Sans Telugu','Noto Sans Kannada','Noto Sans Oriya','Noto Nastaliq Urdu',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+  --font-stack-ur: 'Noto Sans','Noto Nastaliq Urdu','Noto Sans Devanagari','Noto Sans Tamil','Noto Sans Bengali','Noto Sans Malayalam','Noto Sans Gurmukhi','Noto Sans Gujarati','Noto Sans Telugu','Noto Sans Kannada','Noto Sans Oriya',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+  
+  --blue: #024f9d; 
+  --black: #000000;
+  --green: #008840;
+  --orange: #e55a28;
+  --red: #ff4558;
+  --white: #ffffff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --yellow: #ffc107;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --gray: hsl(var(--gray-hs),20%);
+  --gray-0: hsl(var(--gray-hs),95%); // place holder active bg #F2F2F2
+  --gray-100: hsl(var(--gray-hs),80%); // disable btn bg, icon color #CCCCCC
+  --gray-200: hsl(var(--gray-hs),60%); // disable text, place holder text #999999
+  --gray-300: hsl(var(--gray-hs),59%); // sub heading 2 #969696
+  --gray-400: hsl(var(--gray-hs),40%); // sub heading #666666
+  --gray-800: var(--gray); // text color #333333
+
+  --primary-color: var(--blue);
+  --secondary-color: var(--green);
+  --tertiary-color: var(--orange);
+
+  --primary-0: #F3F7FA; // bg
+  --primary-100: #EDF4F9; // default button bg
+  --primary-200: #80A7CE; // divider
+  --primary-250:#D3E7F4; //pagination bg color
+  --primary-300: #7AB4EE; // outline, focus fields
+  --primary-400: var(--primary-color); // button bg, heading, table titles, links, toggles 
+  --primary-600: #005391; // on press
+  --primary-800: #002E50; // hover
+
+  --secondary-0: #E1F;
+
+  --gray-hs: 0,0%;
+  --gray: hsl(var(--gray-hs),20%);
+  --gray-0: hsl(var(--gray-hs),95%); // place holder active bg #F2F2F2
+  --gray-100: hsl(var(--gray-hs),80%); // disable btn bg, icon color #CCCCCC
+  --gray-200: hsl(var(--gray-hs),60%); // disable text, place holder text #999999
+  --gray-300: hsl(var(--gray-hs),59%); // sub heading 2 #969696
+  --gray-400: hsl(var(--gray-hs),40%); // sub heading #666666
+  --gray-800: var(--gray); // text color #333333
+
+  --primary-color: var(--blue);
+  --secondary-color: var(--green);
+  --tertiary-color: var(--orange);
+
+  --primary-0: #F3F7FA; // bg
+  --primary-100: #EDF4F9; // default button bg
+  --primary-200: #80A7CE; // divider
+  --primary-250:#D3E7F4; //pagination bg color
+  --primary-300: #7AB4EE; // outline, focus fields
+  --primary-400: var(--primary-color); // button bg, heading, table titles, links, toggles 
+  --primary-600: #005391; // on press
+  --primary-800: #002E50; // hover
+
+  --secondary-0: #E1FFDF; // toast bg, label
+  --secondary-100: #00C786; // buttong bg, toast
+  --secondary-200: #07bc81; // button bg
+  --secondary-400: var(--secondary-color); // hover
+
+  --tertiary-0: #FEEDD7; // toast bg, label
+  --tertiary-100: #FFA11D; // buttong bg, toast
+  --tertiary-400: var(--tertiary-color); // icon, label, notification bg
+
+  --red-0: #FBCCD1; // toast bg
+  --red-100: #FF6979; // buttong bg, toast
+  --red-400: var(--red); // icon color, lable, notification
+
+  --alpha0: 0;
+  --alpha10: 0.1;
+  --alpha20: 0.2;
+  --alpha25: 0.25;
+  --alpha30: 0.30;
+  --alpha40: 0.40;
+  --alpha50: 0.50;
+  --alpha60: 0.60;
+  --alpha70: 0.70;
+  --alpha75: 0.75;
+  --alpha80: 0.80;
+  --alpha90: 0.90;
+  --alpha100: 1;
+
+  --base-font-size: 0.875rem;
+  --base-block-space: 0.5rem; //8px,
+  --icon-svg-xxs: 0.75rem;
+  --icon-svg-xs: calc(var(--base-block-space) * 2);
+  --icon-svg-sm: calc(var(--base-block-space) * 3);
+  --icon-svg-md: calc(var(--base-block-space) * 4);
+  --icon-svg-lg: calc(var(--base-block-space) * 5);
+  --icon-svg-xl: calc(var(--base-block-space) * 6);
+
+  --font-size-base: 14px; // Assumes the browser default, typically `16px`
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --line-height-base: calc(var(--font-size-base) + 8);
+  --h1-font-size: calc(var(--font-size-base) * 2.286); // 32px
+  --h2-font-size: calc(var(--font-size-base) * 2); // 28px
+  --h3-font-size: calc(var(--font-size-base) * 1.714);// 24px
+  --h4-font-size: calc(var(--font-size-base) * 1.429); // 20px
+  --h5-font-size: calc(var(--font-size-base) * 1.143); // 16px
+  --h6-font-size: calc(var(--font-size-base) * 1); // 14px
+  --font-size-lg: var(--h4-font-size); //20px
+  --font-size-md: var(--h5-font-size); // 16px
+  --font-size-normal: var(--h6-font-size); // 14px
+  --font-size-sm: 12px; 
+  --font-size-xs: 10px;
+  --p-font-size: var(--h6-font-size); // 14px
+}
+
+// Variables
+$font-stack-en: var(--font-stack-en);
+$font-stack-hi: var(--font-stack-hi);
+$font-stack-ur: var(--font-stack-ur);
+
+// Base Colors
+$blue: var(--blue);
+$black: var(--black);
+$green: var(--green);
+$orange: var(--orange);
+$red: var(--red);
+$white: var(--white);
+$indigo: var(--indigo);
+$purple: var(--purple);
+$pink: var(--pink);
+$yellow: var(--yellow);
+$teal: var(--teal);
+$cyan: var(--cyan);
+$gray: var(--gray);
+
+// brand Colors
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+$tertiary-color: var(--tertiary-color);
+
+// gray colors shades 
+$gray-0: var(--gray-0); // place holder active bg #F2F2F2
+$gray-100: var(--gray-100); // disable btn bg, icon color #CCCCCC
+$gray-200: var(--gray-200); // disable text, place holder text #999999
+$gray-300: var(--gray-300); // sub heading 2 #969696
+$gray-400: var(--gray-400); // sub heading #666666
+$gray-800: var(--gray-800); // text color #333333
+
+// primary colors shades 
+$primary-0: var(--primary-0); // bg
+$primary-100: var(--primary-100); // default button bg
+$primary-200: var(--primary-200); // divider
+$primary-250: var(--primary-250); //pagination bg color
+$primary-300: var(--primary-300); // outline,--gray-100: hsl(var(--gray-hs),80%); focus fields
+$primary-400: var(--primary-400); // button bg, heading, table titles, links, toggles 
+$primary-600: var(--primary-600); // on press
+$primary-800: var(--primary-800); // hover
+
+// secondary colors shades
+$secondary-0: var(--secondary-0); // toast bg, label
+$secondary-100: var(--secondary-100); // buttong bg, toast
+$secondary-200: var(--secondary-200); // button bg
+$secondary-400: var(--secondary-400); // hover
+
+// tertiary colors shades
+$tertiary-0: var(--tertiary-0); // toast bg, label
+$tertiary-100: var(--tertiary-100); // buttong bg, toast
+$tertiary-400: var(--tertiary-400); // icon, label, notification bg
+
+// red colors shades
+$red-0: var(--red-0); // toast bg
+$red-100: var(--red-100); // buttong bg, toast
+$red-400: var(--red-400); // icon color, lable, notification 
+
+// input border width
+$input-border-width: 1px; 
+
+// Status Colors
+$info-color: $primary-400;
+$success-color: $secondary-200;
+$warning-color: $tertiary-400;
+$danger-color: $red-100;
+
+// Settings for the `<body>` element.
+$body-background-color: $primary-0;
+$default-text-color: $gray-800;
+$bg-body: $primary-0;
+$body-color: $gray-800;
+$theme-colors: () !default;
+$theme-colors: map-merge(( "primary": $primary-color, "secondary": $secondary-color, "tertiary": $tertiary-color, "success": $success-color, "info": $info-color, "warning": $warning-color, "danger": $danger-color, "light": $gray-100, "dark": $gray), $theme-colors);
+
+// Style anchor elements.
+$link-color: theme-color("primary");
+$link-decoration: none;
+
+//$link-hover-color:        darken($link-color, 15%);
+$link-hover-decoration: underline;
+
+// Fonts
+$font-size-base: 14px; // Assumes the browser default, typically `16px`
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-base: $font-weight-normal;
+$line-height-base: ($font-size-base + 8);
+$h1-font-size: $font-size-base * 2.286; // 32px
+$h2-font-size: $font-size-base * 2; // 28px
+$h3-font-size: $font-size-base * 1.714; // 24px
+$h4-font-size: $font-size-base * 1.429; // 20px
+$h5-font-size: $font-size-base * 1.143; // 16px
+$h6-font-size: $font-size-base * 1; // 14px
+$font-size-lg: $h4-font-size; //20px
+$font-size-md: $h5-font-size; // 16px
+$font-size-normal: ($font-size-base * 1); // 14px
+$font-size-sm: ($font-size-base * 0.8571); // 12px
+$font-size-xs: ($font-size-base * 0.7143); // 10px
+$p-font-size: $font-size-normal;
+
+// spaces
+$base-block-space: 8px;
+$block-padding-y-x: ($base-block-space * 1) ($base-block-space * 2); // any block default spacing 16px
+$block-padding-xy: ($base-block-space * 2); // top right bottom left spacing
+$block-padding-x: ($base-block-space * 2) ($base-block-space * 2); // left right spacing
+$block-padding-y: ($base-block-space * 1) ($base-block-space * 1); // top bottom spacing
+$block-margin-xl-minus: -($base-block-space * 2); // minus margin 16px left
+$block-margin-xr-minus: -($base-block-space * 2); // minus margin 16px right
+$block-margin-xy-minus: -($base-block-space * 2) -($base-block-space * 2); // minus margin 16px left & right
