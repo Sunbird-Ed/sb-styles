@@ -229,3 +229,9 @@ $block-padding-y: ($base-block-space * 1) ($base-block-space * 1); // top bottom
 $block-margin-xl-minus: -($base-block-space * 2); // minus margin 16px left
 $block-margin-xr-minus: -($base-block-space * 2); // minus margin 16px right
 $block-margin-xy-minus: -($base-block-space * 2) -($base-block-space * 2); // minus margin 16px left & right
+
+//Sheen Animation Colors
+$background: #f6f7f8;
+$grey-nuance-lighter: #eeeeee;
+$grey-nuance-darker: #dddddd;
+$fade-grey: #e8e8e8;
