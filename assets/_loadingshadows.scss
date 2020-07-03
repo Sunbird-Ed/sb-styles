@@ -1,5 +1,3 @@
-@import './variables';
-
 .loading-animation {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -11,23 +9,23 @@
     animation-name: placeload;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
-    background: $background;
-    background: $grey-nuance-lighter;
+    background: var(--lazyload-bg);
+    background: var(--grey-nuance-lighter);
     background: -webkit-gradient(
       linear,
       left top,
       right top,
-      color-stop(8%, $grey-nuance-lighter),
-      color-stop(18%, $grey-nuance-darker),
-      color-stop(33%, $grey-nuance-lighter)
+      color-stop(8%, var(--grey-nuance-lighter)),
+      color-stop(18%, var(--grey-nuance-darker)),
+      color-stop(33%, var(--grey-nuance-lighter))
     );
     background: -webkit-linear-gradient(
       left,
-      $grey-nuance-lighter 8%,
-      $grey-nuance-darker 18%,
-      $grey-nuance-lighter 33%
+      var(--grey-nuance-lighter) 8%,
+      var(--grey-nuance-darker) 18%,
+      var(--grey-nuance-lighter) 33%
     );
-    background: linear-gradient(to right, $grey-nuance-lighter 8%, $grey-nuance-darker 18%, $grey-nuance-lighter 33%);
+    background: linear-gradient(to right, var(--grey-nuance-lighter) 8%, var(--grey-nuance-darker) 18%, var(--grey-nuance-lighter) 33%);
     -webkit-background-size: calculateRem(800px) calculateRem(104px);
     background-size: calculateRem(1200px) calculateRem(104px);
     position: relative;

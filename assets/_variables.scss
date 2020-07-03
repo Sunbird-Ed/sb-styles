@@ -1,94 +1,120 @@
 /* css3 variable & sass variables */
 :root {
   //font-size: 16px;
-  --font-stack-en: 'Noto Sans','Noto Sans Devanagari','Noto Sans Tamil','Noto Sans Bengali','Noto Sans Malayalam','Noto Sans Gurmukhi','Noto Sans Gujarati','Noto Sans Telugu','Noto Sans Kannada','Noto Sans Oriya','Noto Nastaliq Urdu',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
-  --font-stack-hi: 'Noto Sans Devanagari','Noto Sans','Noto Sans Tamil','Noto Sans Bengali','Noto Sans Malayalam','Noto Sans Gurmukhi','Noto Sans Gujarati','Noto Sans Telugu','Noto Sans Kannada','Noto Sans Oriya','Noto Nastaliq Urdu',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
-  --font-stack-ur: 'Noto Sans','Noto Nastaliq Urdu','Noto Sans Devanagari','Noto Sans Tamil','Noto Sans Bengali','Noto Sans Malayalam','Noto Sans Gurmukhi','Noto Sans Gujarati','Noto Sans Telugu','Noto Sans Kannada','Noto Sans Oriya',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
-  
-  --blue: #024f9d; 
-  --black: #000000;
+  --font-stack-en: "Noto Sans", "Noto Sans Devanagari", "Noto Sans Tamil",
+    "Noto Sans Bengali", "Noto Sans Malayalam", "Noto Sans Gurmukhi",
+    "Noto Sans Gujarati", "Noto Sans Telugu", "Noto Sans Kannada",
+    "Noto Sans Oriya", "Noto Nastaliq Urdu", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    sans-serif;
+  --font-stack-hi: "Noto Sans Devanagari", "Noto Sans", "Noto Sans Tamil",
+    "Noto Sans Bengali", "Noto Sans Malayalam", "Noto Sans Gurmukhi",
+    "Noto Sans Gujarati", "Noto Sans Telugu", "Noto Sans Kannada",
+    "Noto Sans Oriya", "Noto Nastaliq Urdu", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    sans-serif;
+  --font-stack-ur: "Noto Sans", "Noto Nastaliq Urdu", "Noto Sans Devanagari",
+    "Noto Sans Tamil", "Noto Sans Bengali", "Noto Sans Malayalam",
+    "Noto Sans Gurmukhi", "Noto Sans Gujarati", "Noto Sans Telugu",
+    "Noto Sans Kannada", "Noto Sans Oriya", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+    sans-serif;
+
+  // base colors
+  --blue: #024f9d;
   --green: #008840;
   --orange: #e55a28;
   --red: #ff4558;
-  --white: #ffffff;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
   --yellow: #ffc107;
   --teal: #20c997;
   --cyan: #17a2b8;
-  --gray: hsl(var(--gray-hs),20%);
-  --gray-0: hsl(var(--gray-hs),95%); // place holder active bg #F2F2F2
-  --gray-100: hsl(var(--gray-hs),80%); // disable btn bg, icon color #CCCCCC
-  --gray-200: hsl(var(--gray-hs),60%); // disable text, place holder text #999999
-  --gray-300: hsl(var(--gray-hs),59%); // sub heading 2 #969696
-  --gray-400: hsl(var(--gray-hs),40%); // sub heading #666666
+  --black: #000000;
+  --white: #ffffff;
+
+  // gray colors shades
+  --gray-hs: 0, 0%;
+  --gray: hsl(var(--gray-hs), 20%);
+  --gray-0: hsl(var(--gray-hs), 95%); // place holder active bg #F2F2F2
+  --gray-100: hsl(var(--gray-hs), 80%); // disable btn bg, icon color #CCCCCC
+  --gray-200: hsl(var(--gray-hs), 60%); // disable text, place holder text #999999
+  --gray-300: hsl(var(--gray-hs), 59%); // sub heading 2 #969696
+  --gray-400: hsl(var(--gray-hs), 40%); // sub heading #666666
   --gray-800: var(--gray); // text color #333333
 
-  --primary-color: var(--blue);
-  --secondary-color: var(--green);
-  --tertiary-color: var(--orange);
+  // basetheme
+  --primary-color: #024f9d;
+  --secondary-color: #008840;
+  --tertiary-color: #e55a28;
 
-  --primary-0: #F3F7FA; // bg
-  --primary-100: #EDF4F9; // default button bg
-  --primary-200: #80A7CE; // divider
-  --primary-250:#D3E7F4; //pagination bg color
-  --primary-300: #7AB4EE; // outline, focus fields
-  --primary-400: var(--primary-color); // button bg, heading, table titles, links, toggles 
+  // primary colors
+  --primary-0: #f3f7fa; // bg
+  --primary-100: #edf4f9; // default button bg
+  --primary-200: #80a7ce; // divider
+  --primary-250: #d3e7f4; //pagination bg color
+  --primary-300: #7ab4ee; // outline, focus fields
+  --primary-400: var(--primary-color); // button bg, heading, table titles, links, toggles
   --primary-600: #005391; // on press
-  --primary-800: #002E50; // hover
+  --primary-800: #002e50; // hover
 
-  --secondary-0: #E1F;
-
-  --gray-hs: 0,0%;
-  --gray: hsl(var(--gray-hs),20%);
-  --gray-0: hsl(var(--gray-hs),95%); // place holder active bg #F2F2F2
-  --gray-100: hsl(var(--gray-hs),80%); // disable btn bg, icon color #CCCCCC
-  --gray-200: hsl(var(--gray-hs),60%); // disable text, place holder text #999999
-  --gray-300: hsl(var(--gray-hs),59%); // sub heading 2 #969696
-  --gray-400: hsl(var(--gray-hs),40%); // sub heading #666666
-  --gray-800: var(--gray); // text color #333333
-
-  --primary-color: var(--blue);
-  --secondary-color: var(--green);
-  --tertiary-color: var(--orange);
-
-  --primary-0: #F3F7FA; // bg
-  --primary-100: #EDF4F9; // default button bg
-  --primary-200: #80A7CE; // divider
-  --primary-250:#D3E7F4; //pagination bg color
-  --primary-300: #7AB4EE; // outline, focus fields
-  --primary-400: var(--primary-color); // button bg, heading, table titles, links, toggles 
-  --primary-600: #005391; // on press
-  --primary-800: #002E50; // hover
-
-  --secondary-0: #E1FFDF; // toast bg, label
-  --secondary-100: #00C786; // buttong bg, toast
+  // secondary colors
+  --secondary-0: #e1ffdf; // toast bg, label
+  --secondary-100: #00c786; // button bg bg, toast
   --secondary-200: #07bc81; // button bg
   --secondary-400: var(--secondary-color); // hover
 
-  --tertiary-0: #FEEDD7; // toast bg, label
-  --tertiary-100: #FFA11D; // buttong bg, toast
+  // tertiary colors
+  --tertiary-0: #feedd7; // toast bg, label
+  --tertiary-100: #ffa11d; // buttong bg, toast
   --tertiary-400: var(--tertiary-color); // icon, label, notification bg
 
-  --red-0: #FBCCD1; // toast bg
-  --red-100: #FF6979; // buttong bg, toast
+  // red colors
+  --red-0: #fbccd1; // toast bg
+  --red-100: #ff6979; // buttong bg, toast
   --red-400: var(--red); // icon color, lable, notification
 
-  --alpha0: 0;
-  --alpha10: 0.1;
-  --alpha20: 0.2;
-  --alpha25: 0.25;
-  --alpha30: 0.30;
-  --alpha40: 0.40;
-  --alpha50: 0.50;
-  --alpha60: 0.60;
-  --alpha70: 0.70;
-  --alpha75: 0.75;
-  --alpha80: 0.80;
-  --alpha90: 0.90;
-  --alpha100: 1;
+  // status colors
+  --info-color: var(--blue);
+  --success-color: var(--green);
+  --warning-color: var(--orange);
+  --danger-color: var(--red);
 
+  // element based variables
+  --body-background-color: var(--primary-0);
+  --default-text-color: var(--gray-800);
+  --bg-body: var(--primary-0);
+  --body-color: var(--gray-800);
+
+  // alpha
+  --alpha0: 0;
+  --alpha25: 0.25;
+  --alpha50: 0.5;
+  --alpha75: 0.75;
+
+  // fonts
+  --font-default-size: 0.875rem;
+  --font-size-base: var(--font-default-size); // 14px Assumes the browser default, typically `16px`
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-weight-base: var(--font-weight-normal);
+  --line-height-base: calc(var(--font-size-base) * 1.61803398875);
+  --h1-font-size: 2rem; // 32px
+  --h2-font-size: 1.75rem; // 28px
+  --h3-font-size: 1.5rem; // 24px
+  --h4-font-size: 1.2rem; // 20px
+  --h5-font-size: 1rem; // 16px
+  --h6-font-size: var(--font-size-base); // 14px
+  --font-size-lg: var(--h4-font-size); //20px
+  --font-size-md: var(--h5-font-size); // 16px
+  --font-size-normal: var(--font-size-base); // 14px
+  --font-size-sm: 0.75rem; // 12px
+  --font-size-xs: 0.625rem; // 10px
+  --p-font-size: var(--font-size-base); //14px
+
+  // base variables
   --base-font-size: 0.875rem;
   --base-block-space: 0.5rem; //8px,
   --icon-svg-xxs: 0.75rem;
@@ -98,23 +124,95 @@
   --icon-svg-lg: calc(var(--base-block-space) * 5);
   --icon-svg-xl: calc(var(--base-block-space) * 6);
 
-  --font-size-base: 14px; // Assumes the browser default, typically `16px`
-  --font-weight-light: 300;
-  --font-weight-normal: 400;
-  --font-weight-bold: 700;
-  --line-height-base: calc(var(--font-size-base) + 8);
-  --h1-font-size: calc(var(--font-size-base) * 2.286); // 32px
-  --h2-font-size: calc(var(--font-size-base) * 2); // 28px
-  --h3-font-size: calc(var(--font-size-base) * 1.714);// 24px
-  --h4-font-size: calc(var(--font-size-base) * 1.429); // 20px
-  --h5-font-size: calc(var(--font-size-base) * 1.143); // 16px
-  --h6-font-size: calc(var(--font-size-base) * 1); // 14px
-  --font-size-lg: var(--h4-font-size); //20px
-  --font-size-md: var(--h5-font-size); // 16px
-  --font-size-normal: var(--h6-font-size); // 14px
-  --font-size-sm: 12px; 
-  --font-size-xs: 10px;
-  --p-font-size: var(--h6-font-size); // 14px
+  //random colors and backgrounds
+  --rc-96C8DA: #96C8DA;
+  --rc-0076FE: #0076FE;
+  --rc-E5EDF5: #E5EDF5;
+  --rc-7c7b7b: #7c7b7b;
+  --rc-f5f5f5: #f5f5f5;
+  --rc-fdfdfd: #fdfdfd;
+  --rc-dedede: #dedede;
+  --rc-F5F9FC: #F5F9FC;
+  --rc-c4c4c4: #c4c4c4;
+  --rc-d8d8d8: #d8d8d8;
+  --rc-e9e5e5: #e9e5e5;
+  --rc-dddddd: #dddddd;
+  --rc-7b86f4: #7b86f4;
+  --rc-d0d0d0: #d0d0d0;
+  --rc-5c8db7: #5c8db7;
+  --rc-91aecc: #91aecc;
+  --rc-f9f9f9: #f9f9f9;
+  --rc-d4d3d3: #d4d3d3;
+  --rc-FAFAFA: #FAFAFA;
+  --rc-866A6A: #866a6a;
+  --rc-979797: #979797;
+  --rc-e0e1e2: #e0e1e2;
+  --rc-00BD7F: #00BD7F;
+  --rc-9F9F9F: #9F9F9F;
+  --rc-F3F8FF: #F3F8FF;
+  --rc-80A7CE: #80A7CE;
+  --rc-9b9b9b: #9b9b9b;
+  --rc-2ca58d: #2ca58d;
+  --rc-007AFF: #007AFF;
+  --rc-bdbdbd: #bdbdbd;
+  --rc-cecece: #cecece;
+  --rc-2972a4: #2972a4;
+  --rc-E0F1FD: #E0F1FD;
+  --rc-C8D6EA: #C8D6EA;
+  --rc-e2e3e5: #e2e3e5;
+  --rc-BCBEC0: #BCBEC0;
+  --rc-d4d4d5: #d4d4d5;
+  --rc-d4d8da: #d4d8da;
+  --rc-bfe1cf: #bfe1cf;
+  --rc-289fd9: #289fd9;
+  --rc-e68900: #e68900;
+  --rc-2f4272: #2f4272;
+  --rc-e0e0e0: #e0e0e0;
+  --rc-2361ff: #2361ff;
+  --rc-c2c2c2: #c2c2c2;
+  --rc-e5e5e5: #e5e5e5;
+  --rc-ffb300: #ffb300;
+  --rc-d8dee2: #d8dee2;
+  --rc-252525: #252525;
+  --rc-fcf2d6: #fcf2d6;
+  --rc-add8e6: #add8e6;
+  --rc-afd9e7: #afd9e7;
+  --rc-D9E4F2: #D9E4F2;
+  --rc-88B7E6: #88B7E6;
+  --rc-4a4a4a: #4a4a4a;
+  --rc-fff6f6: #fff6f6;
+  --rc-f7f7f7: #f7f7f7;
+  --rc-66c7f4: #66c7f4;
+  --rc-1B4785: #1B4785;
+  --rc-a9a9a9: #a9a9a9;
+  --rc-eeeeee: #eeeeee;
+  --rc-1b1c1d: #1b1c1d;
+  --rc-dededf: #dededf;
+  --rc-aaaaaa: #aaaaaa;
+  --rc-042D55: #042D55;
+  --rc-eeeeee: #eeeeee;
+  --rc-bbbbbb: #bbbbbb;
+  --rc-009D53: #009D53;
+  --rc-E0EFFF: #E0EFFF;
+  --rc-196DAB: #196DAB;
+  --rc-c2c2c2: #c2c2c2;
+  --rc-e5e5e5: #e5e5e5;
+  --rc-c3c3c3: #c3c3c3;
+  --rc-rgba-black: 0, 0, 0; // var(--black)
+  --rc-rgba-white: 255, 255, 255; // var(--white)
+  --rc-rgba-gray: 51, 51, 51; // var(--gray-300)
+  --rc-rgba-primary: 2, 79, 157; // var(--primary-color)
+  --rc-rgba-primary-300: 41, 114, 164; //var(--primary-300)
+  --rc-rgba-gray-300: 34, 36, 38; //var(--gray-100)
+  --rc-rgba-866a6a: 134, 106, 106;
+  --rc-rgba-d0d0d0: 208, 208, 208;
+  --rc-rgba-7b86f4: 123, 134, 244;
+  
+  // lazy loading
+  --lazyload-bg:#f6f7f8;
+  --grey-nuance-lighter: #eeeeee;
+  --grey-nuance-darker: #dddddd;
+  --fade-grey: #e8e8e8;
 }
 
 // Variables
@@ -123,11 +221,11 @@ $font-stack-hi: var(--font-stack-hi);
 $font-stack-ur: var(--font-stack-ur);
 
 // Base Colors
-$blue: var(--blue);
-$black: var(--black);
-$green: var(--green);
-$orange: var(--orange);
+$blue: #024f9d;
+$green: #008840;
+$orange: #e55a28;
 $red: var(--red);
+$black: var(--black);
 $white: var(--white);
 $indigo: var(--indigo);
 $purple: var(--purple);
@@ -141,8 +239,7 @@ $gray: var(--gray);
 $primary-color: var(--primary-color);
 $secondary-color: var(--secondary-color);
 $tertiary-color: var(--tertiary-color);
-
-// gray colors shades 
+// gray colors shades
 $gray-0: var(--gray-0); // place holder active bg #F2F2F2
 $gray-100: var(--gray-100); // disable btn bg, icon color #CCCCCC
 $gray-200: var(--gray-200); // disable text, place holder text #999999
@@ -150,13 +247,15 @@ $gray-300: var(--gray-300); // sub heading 2 #969696
 $gray-400: var(--gray-400); // sub heading #666666
 $gray-800: var(--gray-800); // text color #333333
 
-// primary colors shades 
+// primary colors shades
 $primary-0: var(--primary-0); // bg
 $primary-100: var(--primary-100); // default button bg
 $primary-200: var(--primary-200); // divider
 $primary-250: var(--primary-250); //pagination bg color
-$primary-300: var(--primary-300); // outline,--gray-100: hsl(var(--gray-hs),80%); focus fields
-$primary-400: var(--primary-400); // button bg, heading, table titles, links, toggles 
+$primary-300: var(--primary-300); // outline, focus fields
+$primary-400: var(
+  --primary-400
+); // button bg, heading, table titles, links, toggles
 $primary-600: var(--primary-600); // on press
 $primary-800: var(--primary-800); // hover
 
@@ -174,64 +273,42 @@ $tertiary-400: var(--tertiary-400); // icon, label, notification bg
 // red colors shades
 $red-0: var(--red-0); // toast bg
 $red-100: var(--red-100); // buttong bg, toast
-$red-400: var(--red-400); // icon color, lable, notification 
+$red-400: var(--red-400); // icon color, lable, notification
 
 // input border width
-$input-border-width: 1px; 
+$input-border-width: 0.0625rem;
 
 // Status Colors
-$info-color: $primary-400;
-$success-color: $secondary-200;
-$warning-color: $tertiary-400;
-$danger-color: $red-100;
+$info-color: var(--primary-400);
+$success-color: var(--secondary-200);
+$warning-color: var(--tertiary-400);
+$danger-color: var(--red-100);
+$body-background-color: var(--primary-0);
+$default-text-color: var(--gray-800);
+$bg-body: var(--primary-0);
+$body-color: var(--gray-800);
 
-// Settings for the `<body>` element.
-$body-background-color: $primary-0;
-$default-text-color: $gray-800;
-$bg-body: $primary-0;
-$body-color: $gray-800;
-$theme-colors: () !default;
-$theme-colors: map-merge(( "primary": $primary-color, "secondary": $secondary-color, "tertiary": $tertiary-color, "success": $success-color, "info": $info-color, "warning": $warning-color, "danger": $danger-color, "light": $gray-100, "dark": $gray), $theme-colors);
-
-// Style anchor elements.
-$link-color: theme-color("primary");
-$link-decoration: none;
-
-//$link-hover-color:        darken($link-color, 15%);
-$link-hover-decoration: underline;
-
-// Fonts
-$font-size-base: 14px; // Assumes the browser default, typically `16px`
-$font-weight-light: 300;
-$font-weight-normal: 400;
-$font-weight-bold: 700;
-$font-weight-base: $font-weight-normal;
-$line-height-base: ($font-size-base + 8);
-$h1-font-size: $font-size-base * 2.286; // 32px
-$h2-font-size: $font-size-base * 2; // 28px
-$h3-font-size: $font-size-base * 1.714; // 24px
-$h4-font-size: $font-size-base * 1.429; // 20px
-$h5-font-size: $font-size-base * 1.143; // 16px
-$h6-font-size: $font-size-base * 1; // 14px
-$font-size-lg: $h4-font-size; //20px
-$font-size-md: $h5-font-size; // 16px
-$font-size-normal: ($font-size-base * 1); // 14px
-$font-size-sm: ($font-size-base * 0.8571); // 12px
-$font-size-xs: ($font-size-base * 0.7143); // 10px
-$p-font-size: $font-size-normal;
+/* Fonts */
+$font-default-size: var(--font-default-size);
+$font-size-base: var(--font-size-base); // 14px Assumes the browser default, typically `16px`
+$font-weight-light: var(--font-weight-light);
+$font-weight-normal: var(--font-weight-normal);
+$font-weight-bold: var(--font-weight-bold);
+$font-weight-base: var(--font-weight-normal);
+$line-height-base: calc(var(--font-size-base) * 1.61803398875);
+$h1-font-size: var(--h1-font-size); // 32px
+$h2-font-size: var(--h2-font-size); // 28px
+$h3-font-size: var(--h3-font-size); // 24px
+$h4-font-size: var(--h4-font-size); // 20px
+$h5-font-size: var(--h5-font-size); // 16px
+$h6-font-size: var(--font-size-base); // 14px
+$font-size-lg: var(--h4-font-size); //20px
+$font-size-md: var(--h5-font-size); // 16px
+$font-size-normal: var(--font-size-base); // 14px
+$font-size-sm: var(--font-size-sm); // 12px
+$font-size-xs: var(--font-size-xs); // 10px
+$p-font-size: var(--font-size-base); //14px
 
 // spaces
-$base-block-space: 8px;
-$block-padding-y-x: ($base-block-space * 1) ($base-block-space * 2); // any block default spacing 16px
-$block-padding-xy: ($base-block-space * 2); // top right bottom left spacing
-$block-padding-x: ($base-block-space * 2) ($base-block-space * 2); // left right spacing
-$block-padding-y: ($base-block-space * 1) ($base-block-space * 1); // top bottom spacing
-$block-margin-xl-minus: -($base-block-space * 2); // minus margin 16px left
-$block-margin-xr-minus: -($base-block-space * 2); // minus margin 16px right
-$block-margin-xy-minus: -($base-block-space * 2) -($base-block-space * 2); // minus margin 16px left & right
+$base-block-space: 0.5rem;
 
-//Sheen Animation Colors
-$background: #f6f7f8;
-$grey-nuance-lighter: #eeeeee;
-$grey-nuance-darker: #dddddd;
-$fade-grey: #e8e8e8;
