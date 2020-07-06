@@ -1,16 +1,16 @@
 {
-  "name": "common-consumption-styles",
-  "version": "0.0.17",
+  "name": "@project-sunbird/sb-styles",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itsvick/sb-styles.git"
+    "url": "git+https://github.com/Sunbird-Ed/sb-styles.git"
   },
   "keywords": [
     "angular",
@@ -19,7 +19,7 @@
     "Styles"
   ],
   "bugs": {
-    "url": "https://github.com/itsvick/sb-styles/issues"
+    "url": "https://github.com/Sunbird-Ed/sb-styles/issues"
   },
-  "homepage": "https://github.com/itsvick/sb-styles.git#readme"
+  "homepage": "https://github.com/Sunbird-Ed/sb-styles.git#readme"
 }
