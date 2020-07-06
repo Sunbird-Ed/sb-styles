@@ -40,7 +40,7 @@ a.sb-btn {
   position: relative;
   line-height: 1.15;
   text: {
-    transform: capitalize;
+    transform: inherit;
     decoration: none;
   }
   &:hover {
