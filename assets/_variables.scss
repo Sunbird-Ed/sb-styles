@@ -207,7 +207,7 @@
   --rc-rgba-866a6a: 134, 106, 106;
   --rc-rgba-d0d0d0: 208, 208, 208;
   --rc-rgba-7b86f4: 123, 134, 244;
-  
+
   // lazy loading
   --lazyload-bg:#f6f7f8;
   --grey-nuance-lighter: #eeeeee;
@@ -221,9 +221,9 @@ $font-stack-hi: var(--font-stack-hi);
 $font-stack-ur: var(--font-stack-ur);
 
 // Base Colors
-$blue: #024f9d;
-$green: #008840;
-$orange: #e55a28;
+$blue: var(--primary-color);
+$green: var(--secondary-color);
+$orange: var(--tertiary-color);
 $red: var(--red);
 $black: var(--black);
 $white: var(--white);
@@ -239,6 +239,7 @@ $gray: var(--gray);
 $primary-color: var(--primary-color);
 $secondary-color: var(--secondary-color);
 $tertiary-color: var(--tertiary-color);
+
 // gray colors shades
 $gray-0: var(--gray-0); // place holder active bg #F2F2F2
 $gray-100: var(--gray-100); // disable btn bg, icon color #CCCCCC
@@ -253,9 +254,7 @@ $primary-100: var(--primary-100); // default button bg
 $primary-200: var(--primary-200); // divider
 $primary-250: var(--primary-250); //pagination bg color
 $primary-300: var(--primary-300); // outline, focus fields
-$primary-400: var(
-  --primary-400
-); // button bg, heading, table titles, links, toggles
+$primary-400: var(--primary-400); // button bg, heading, table titles, links, toggles
 $primary-600: var(--primary-600); // on press
 $primary-800: var(--primary-800); // hover
 
@@ -311,4 +310,3 @@ $p-font-size: var(--font-size-base); //14px
 
 // spaces
 $base-block-space: 0.5rem;
-
