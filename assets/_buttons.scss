@@ -369,6 +369,12 @@ $btnSquaresizes: "xs" 1.5rem 1.5rem 1rem null, "normal" 4rem 4rem 0.75rem null,
   }
 }
 
+.sb-btn-icon-fix {
+  display:flex;
+  align-items: center;
+  line-height: normal;
+}
+
 /* do not delete */
 .sb-btn-grow {
   background: none;
