@@ -45,12 +45,9 @@
   --gray-800: var(--gray); // text color #333333
 
   // basetheme
-  // --primary-color: #024f9d;
-  // --secondary-color: #008840;
-  // --tertiary-color: #e55a28;
-  --primary-color: #e55a28;
-  --secondary-color: #024f9d;
-  --tertiary-color: #008840;
+  --primary-color: #024f9d;
+  --secondary-color: #008840;
+  --tertiary-color: #e55a28;
 
   // primary colors
   --primary-0: #f3f7fa; // bg
@@ -201,6 +198,26 @@
   --rc-c2c2c2: #c2c2c2;
   --rc-e5e5e5: #e5e5e5;
   --rc-c3c3c3: #c3c3c3;
+  --rc-00abc7:#00abc7;
+  --rc-FCE6E6:#FCE6E6;
+  --rc-DECACA:#DECACA;
+  --rc-424242:#424242;
+  --rc-F5D7D7:#F5D7D7;
+  --rc-F7FFF5:#F7FFF5;
+  --rc-D3DED1:#D3DED1;
+  --rc-EBF6E0:#EBF6E0;
+  --rc-F6F6F6:#F6F6F6;
+  --rc-33B6CC:#33B6CC;
+  --rc-2dadc2:#2dadc2;
+  --rc-0fbad6:#0fbad6;
+  --rc-f7ffec:#f7ffec;
+  --rc-d2ddc7:#d2ddc7;
+  --rc-ffe1e1:#ffe1e1;
+  --rc-e6c8c8:#e6c8c8;
+  --rc-f56b56:#f56b56;
+  --rc-dc523d:#dc523d;
+  --rc-e65c47:#e65c47;
+  --rc-565c70:#565c70;
   --rc-rgba-black: 0, 0, 0; // var(--black)
   --rc-rgba-white: 255, 255, 255; // var(--white)
   --rc-rgba-gray: 51, 51, 51; // var(--gray-300)
@@ -210,12 +227,7 @@
   --rc-rgba-866a6a: 134, 106, 106;
   --rc-rgba-d0d0d0: 208, 208, 208;
   --rc-rgba-7b86f4: 123, 134, 244;
-
-  // lazy loading
-  --lazyload-bg:#f6f7f8;
-  --grey-nuance-lighter: #eeeeee;
-  --grey-nuance-darker: #dddddd;
-  --fade-grey: #e8e8e8;
+  --rc-rgba-C8D6EA: 200, 214, 234;
 }
 
 // Variables
@@ -242,7 +254,8 @@ $gray: var(--gray);
 $primary-color: var(--primary-color);
 $secondary-color: var(--secondary-color);
 $tertiary-color: var(--tertiary-color);
-
+// Neutral Colors
+$white-color: var(--white);
 // gray colors shades
 $gray-0: var(--gray-0); // place holder active bg #F2F2F2
 $gray-100: var(--gray-100); // disable btn bg, icon color #CCCCCC
