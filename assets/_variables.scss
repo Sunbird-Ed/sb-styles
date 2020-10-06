@@ -229,6 +229,15 @@
   --rc-rgba-7b86f4: 123, 134, 244;
   --rc-rgba-C8D6EA: 200, 214, 234;
 
+  // theme styles
+  --primary-theme: #FFD954;
+  --sbt-theme-bg: var(--primary-theme);
+  --sbt-header-bg: var(--primary-theme);
+  --sbt-body-bg: #F2F2EA;
+  --sbt-body-bg2: #E9E8D9;
+  --sbt-primary-bg: var(--primary-theme);
+  --sbt-border-chapter: #E4E8EE;
+  
     // lazy loading
     --lazyload-bg:#f6f7f8;
     --grey-nuance-lighter: #eeeeee;
