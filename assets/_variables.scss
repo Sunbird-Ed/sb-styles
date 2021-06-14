@@ -100,7 +100,8 @@
   --font-weight-normal: 400;
   --font-weight-bold: 700;
   --font-weight-base: var(--font-weight-normal);
-  --line-height-base: calc(var(--font-size-base) * 1.61803398875);
+  --line-height-value : 1.61803398875;
+  --line-height-base: calc(var(--font-size-base) * var(--line-height-value));
   --h1-font-size: 2rem; // 32px
   --h2-font-size: 1.75rem; // 28px
   --h3-font-size: 1.5rem; // 24px
@@ -334,7 +335,7 @@ $font-weight-light: var(--font-weight-light);
 $font-weight-normal: var(--font-weight-normal);
 $font-weight-bold: var(--font-weight-bold);
 $font-weight-base: var(--font-weight-normal);
-$line-height-base: calc(var(--font-size-base) * 1.61803398875);
+$line-height-base: calc(var(--font-size-base) * var(--line-height-value));
 $h1-font-size: var(--h1-font-size); // 32px
 $h2-font-size: var(--h2-font-size); // 28px
 $h3-font-size: var(--h3-font-size); // 24px
