@@ -27,7 +27,7 @@ jobs:
             if [ -z $CIRCLE_PR_NUMBER ]; then
               npm pack
               echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
-              npm publish project-sunbird-sb-styles-*
+              npm publish project-sunbird-sb-styles-*  --access=public
             else
               npm pack
             fi
