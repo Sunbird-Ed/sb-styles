@@ -1,6 +1,3 @@
-/* typography styles */
-@import "./variables";
-
 // Headings
 $typography: 
 h1 var(--h1-font-size) calc(var(--h1-font-size) * var(--line-height-value)), // 32px
