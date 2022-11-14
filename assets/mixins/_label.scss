@@ -5,12 +5,6 @@
 
 @mixin label-theme-bgwhite($label-color) {
 	//border-color: darken($label-color, 2%);
-	background-color: $white;
+	background-color: var(--white);
 	color:($label-color);
-}
-@mixin trans($val...) {
-	-webkit-transition: $val;
-	-moz-transition: $val; 
-	-o-transition: $val; 
-	transition: $val; 
 }

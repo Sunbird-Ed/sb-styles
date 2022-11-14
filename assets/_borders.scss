@@ -1,5 +1,6 @@
+@use './mixins/border' as *;
 .b-0{
-    @include border(border,0px,$gray-400 !important);
+    @include border(border,0px,var(--gray-400) !important);
 }
 .bl-0{
     border-left: none !important;
@@ -17,14 +18,14 @@
     border-bottom: none !important;
 }
 .b-1 {
-    @include border(border,1px,$gray-400 !important);
+    @include border(border,1px,var(--gray-400) !important);
 }
 .b-2 {
-    @include border(border,2px,$gray-400 !important);
+    @include border(border,2px,var(--gray-400) !important);
 }
 .b-4 {
-    @include border(border,4px,$gray-400 !important);
+    @include border(border,4px,var(--gray-400) !important);
 }
 .b-8 {
-    @include border(border,8px,$gray-400 !important);
+    @include border(border,8px,var(--gray-400) !important);
 }

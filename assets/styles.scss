@@ -1,0 +1,20 @@
+// base scss partials
+@use "./fonts/fontFamily" as *; // fonts
+@use "./varIndex" as *; // variables
+@use "./mixins/mixins" as *;
+@use "./icons" as *; // icons
+@use "./reset" as *; // reset styles
+@use "./colors" as *; // global color related styles
+@use "./sizing" as *; // width heights etc
+@use "./typography" as *; // font styles
+@use "./displays" as *; // visibility
+@use "./positions" as *; 
+@use "./margins" as *; // global margin
+@use "./paddings" as *; // global padding
+@use "./overflows" as *; 
+@use "./flexbox" as *; // common flexbox styles
+@use "./borders" as *; // custom border styles
+@use "./box-shadows" as *; 
+
+//Components
+@use "./buttons" as *;

@@ -1,4 +1,5 @@
-@import "./mixins/mixins";
+@use "./mixins/mixins" as *;
+@use "./varSass" as *;
 /* buttons sytle guide */
 input[type="submit"],
 input[type="reset"],
@@ -34,7 +35,7 @@ button.sb-btn:focus {
   border: calculateRem(1px) solid;
   cursor: pointer;
   min-width: calculateRem(64px);
-  @include border-radius(0.125rem);
+  border-radius: 0.125rem;
   position: relative;
   line-height: 1;
 
