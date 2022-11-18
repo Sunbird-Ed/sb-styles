@@ -1,6 +1,4 @@
 //rem calculator
-@use "sass:math";
-@use "sass:list";
 @function calculateRem($size) {
 	$remSize:calc($size / 16px);
 	@return #{$remSize}rem;
