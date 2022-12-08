@@ -1,3 +1,5 @@
+@use './mixins/border' as *;
+
 [class^="sb-icon-"],
 [class*="sb-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
