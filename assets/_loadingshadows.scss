@@ -1,3 +1,5 @@
+@use './mixins/mixins' as *;
+
 .loading-animation {
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
