@@ -38,6 +38,10 @@
   --primary-400: var(--primary-color); // button bg, heading, table titles, links, toggles
   --primary-600: #005391; // on press
   --primary-800: #002e50; // hover
+  --primary-color-contrast: #fff;
+  --primary-color-contrast-rgb: rgb(255, 255, 255);
+  --primary-color-shade: var(--primary-800);
+  --primary-color-tint: var(--primary-200);
 
   // secondary colors
   --secondary-0: #e1ffdf; // toast bg, label
