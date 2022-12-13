@@ -78,11 +78,50 @@
   --alpha75: 0.75;
 
   //random colors and backgrounds
+  --rc-00abc7: #00abc7;
+  --rc-33B6CC: #33B6CC;
+  --rc-2dadc2: #2dadc2;
+  --rc-0fbad6: #0fbad6;
   --rc-96C8DA: #96C8DA;
+  --rc-add8e6: #add8e6;
+  --rc-afd9e7: #afd9e7;
+  --rc-66c7f4: #66c7f4;
+  --rc-289fd9: #289fd9;
+  --rc-88B7E6: #88B7E6;
+  --rc-007AFF: #007AFF;
+  --rc-7b86f4: #7b86f4;
   --rc-0076FE: #0076FE;
+  --rc-2361ff: #2361ff;
+  --rc-1B4785: #1B4785;
+  --rc-196DAB: #196DAB;
+  --rc-5c8db7: #5c8db7;
+  --rc-91aecc: #91aecc;
+  --rc-80A7CE: #80A7CE;
+  --rc-2972a4: #2972a4;
+  --rc-2f4272: #2f4272;
+  --rc-042D55: #042D55;
+
+  --rc-1b1c1d: #1b1c1d;
+  --rc-252525: #252525;
+  --rc-4a4a4a: #4a4a4a;
+  --rc-565c70: #565c70;
+  --rc-6D7278: #6D7278;
+  --rc-424242: #424242;
+  --rc-a9a9a9: #a9a9a9;
+  --rc-aaaaaa: #aaaaaa;
+  --rc-bbbbbb: #bbbbbb;
+  --rc-979797: #979797;
+  --rc-9F9F9F: #9F9F9F;
+  --rc-9b9b9b: #9b9b9b;
+
+  --rc-00BD7F: #00BD7F;
+  --rc-2ca58d: #2ca58d;
+  --rc-009D53: #009D53;
+  --rc-bfe1cf: #bfe1cf;
+
   --rc-E5EDF5: #E5EDF5;
-  --rc-7c7b7b: #7c7b7b;
   --rc-f5f5f5: #f5f5f5;
+  --rc-f9f9f9: #f9f9f9;
   --rc-fdfdfd: #fdfdfd;
   --rc-dedede: #dedede;
   --rc-F5F9FC: #F5F9FC;
@@ -90,90 +129,58 @@
   --rc-d8d8d8: #d8d8d8;
   --rc-e9e5e5: #e9e5e5;
   --rc-dddddd: #dddddd;
-  --rc-7b86f4: #7b86f4;
   --rc-d0d0d0: #d0d0d0;
-  --rc-5c8db7: #5c8db7;
-  --rc-91aecc: #91aecc;
-  --rc-f9f9f9: #f9f9f9;
   --rc-d4d3d3: #d4d3d3;
   --rc-FAFAFA: #FAFAFA;
-  --rc-866A6A: #866a6a;
-  --rc-979797: #979797;
-  --rc-e0e1e2: #e0e1e2;
-  --rc-00BD7F: #00BD7F;
-  --rc-9F9F9F: #9F9F9F;
   --rc-F3F8FF: #F3F8FF;
-  --rc-80A7CE: #80A7CE;
-  --rc-9b9b9b: #9b9b9b;
-  --rc-2ca58d: #2ca58d;
-  --rc-007AFF: #007AFF;
+  --rc-e0e1e2: #e0e1e2;
   --rc-bdbdbd: #bdbdbd;
   --rc-cecece: #cecece;
-  --rc-2972a4: #2972a4;
   --rc-E0F1FD: #E0F1FD;
   --rc-C8D6EA: #C8D6EA;
   --rc-e2e3e5: #e2e3e5;
   --rc-BCBEC0: #BCBEC0;
   --rc-d4d4d5: #d4d4d5;
   --rc-d4d8da: #d4d8da;
-  --rc-bfe1cf: #bfe1cf;
-  --rc-289fd9: #289fd9;
-  --rc-e68900: #e68900;
-  --rc-2f4272: #2f4272;
   --rc-e0e0e0: #e0e0e0;
-  --rc-2361ff: #2361ff;
   --rc-c2c2c2: #c2c2c2;
   --rc-e5e5e5: #e5e5e5;
-  --rc-ffb300: #ffb300;
   --rc-d8dee2: #d8dee2;
-  --rc-252525: #252525;
-  --rc-fcf2d6: #fcf2d6;
-  --rc-add8e6: #add8e6;
-  --rc-afd9e7: #afd9e7;
   --rc-D9E4F2: #D9E4F2;
-  --rc-88B7E6: #88B7E6;
-  --rc-4a4a4a: #4a4a4a;
   --rc-fff6f6: #fff6f6;
   --rc-f7f7f7: #f7f7f7;
-  --rc-66c7f4: #66c7f4;
-  --rc-1B4785: #1B4785;
-  --rc-a9a9a9: #a9a9a9;
   --rc-eeeeee: #eeeeee;
-  --rc-1b1c1d: #1b1c1d;
   --rc-dededf: #dededf;
-  --rc-aaaaaa: #aaaaaa;
-  --rc-042D55: #042D55;
   --rc-eeeeee: #eeeeee;
-  --rc-bbbbbb: #bbbbbb;
-  --rc-009D53: #009D53;
   --rc-E0EFFF: #E0EFFF;
-  --rc-196DAB: #196DAB;
   --rc-c2c2c2: #c2c2c2;
   --rc-e5e5e5: #e5e5e5;
   --rc-c3c3c3: #c3c3c3;
-  --rc-00abc7: #00abc7;
-  --rc-FCE6E6: #FCE6E6;
-  --rc-DECACA: #DECACA;
-  --rc-424242: #424242;
-  --rc-F5D7D7: #F5D7D7;
   --rc-F7FFF5: #F7FFF5;
   --rc-D3DED1: #D3DED1;
   --rc-EBF6E0: #EBF6E0;
   --rc-F6F6F6: #F6F6F6;
-  --rc-33B6CC: #33B6CC;
-  --rc-2dadc2: #2dadc2;
-  --rc-0fbad6: #0fbad6;
   --rc-f7ffec: #f7ffec;
   --rc-d2ddc7: #d2ddc7;
+
+  --rc-866A6A: #866a6a;
+  --rc-7c7b7b: #7c7b7b;
+  --rc-DECACA: #DECACA;
+  --rc-FCE6E6: #FCE6E6;
+  --rc-fcf2d6: #fcf2d6;
+  --rc-F5D7D7: #F5D7D7;
   --rc-ffe1e1: #ffe1e1;
   --rc-e6c8c8: #e6c8c8;
+
+
+  --rc-ffb300: #ffb300;
+  --rc-e68900: #e68900;
+  --rc-E08A20: #E08A20;
+  --rc-DD680F: #DD680F;
   --rc-f56b56: #f56b56;
   --rc-dc523d: #dc523d;
   --rc-e65c47: #e65c47;
-  --rc-565c70: #565c70;
-  --rc-6D7278: #6D7278;
-  --rc-E08A20: #E08A20;
-  --rc-DD680F: #DD680F;
+
   --rc-rgba-black: 0, 0, 0; // var(--black)
   --rc-rgba-white: 255, 255, 255; // var(--white)
   --rc-rgba-gray: 51, 51, 51; // var(--gray-300)
@@ -184,15 +191,6 @@
   --rc-rgba-d0d0d0: 208, 208, 208;
   --rc-rgba-7b86f4: 123, 134, 244;
   --rc-rgba-C8D6EA: 200, 214, 234;
-
-  // theme styles
-  --primary-theme: #FFD954;
-  --sbt-theme-bg: var(--primary-theme);
-  --sbt-header-bg: var(--primary-theme);
-  --sbt-body-bg: #F2F2EA;
-  --sbt-body-bg2: #E9E8D9;
-  --sbt-primary-bg: var(--primary-theme);
-  --sbt-border-chapter: #E4E8EE;
 
   // shadows
   --sbt-box-shadow-black: rgba(0, 0, 0, 0.1);
