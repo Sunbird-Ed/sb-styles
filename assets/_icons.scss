@@ -106,7 +106,6 @@
 
 
 //common consumption library
-
 // icons
 .icon-arrow-round-down {
   transform: rotate(90deg);
@@ -155,7 +154,7 @@
     fill: var(--white);
   }
   &--primary {
-    fill: var(--primary-color-contrast);
+    fill: var(--primary-color);
   }
   &--secondary {
     fill: var(--secondary-color);
