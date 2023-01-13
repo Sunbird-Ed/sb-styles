@@ -10,7 +10,7 @@
     <td>0.0.9</td>
   </tr>
   <tr>
-    <td><b>Latest Features</b><br>Required to upgrade the sass</td>
+    <td><b>Latest Features</b><br>(Compatibility with Dart Sass)</td>
     <td>0.0.15</td>
   </tr>
 </table>
