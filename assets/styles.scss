@@ -1,5 +1,5 @@
 // base scss partials
-@use "./fonts/fontFamily" as *; // fonts
+// @use "./fonts/index" as *; // fonts
 @use "./varIndex" as *; // variables
 @use "./mixins/mixins" as *;
 @use "./icons" as *; // icons
@@ -16,5 +16,5 @@
 @use "./borders" as *; // custom border styles
 @use "./box-shadows" as *; 
 
-//Components
+// Components
 @use "./buttons" as *;
